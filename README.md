@@ -1,67 +1,65 @@
-# Welcome to My project
+# Blogcast Audio Forge
 
-## Project info
+**Blogcast Audio Forge** is a modern web application designed to transform written blog content into high-quality audio podcasts using advanced AI technology. Built with a focus on user experience and performance, it leverages the power of ElevenLabs for audio synthesis and Supabase for a robust backend.
 
-**URL**: https://vercel.com/uday-guptas-projects-1241fdef/blogcast-audio-forge
+## 🚀 Features
 
-## How can I edit this code?
+- **AI-Powered Audio Generation**: Convert text to lifelike speech using the ElevenLabs API.
+- **Modern User Interface**: A clean, responsive, and accessible UI built with Shadcn UI and Tailwind CSS.
+- **Secure Authentication**: User management and authentication handled by Supabase.
+- **Real-time Updates**: Fast and reactive experience powered by React and Vite.
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
+- **Frontend**: [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/), [Shadcn UI](https://ui.shadcn.com/)
+- **Backend & Auth**: [Supabase](https://supabase.com/)
+- **AI Audio**: [ElevenLabs](https://elevenlabs.io/)
+- **State Management & Data Fetching**: [TanStack Query](https://tanstack.com/query/latest)
 
-Simply visit the [Project](https://vercel.com/uday-guptas-projects-1241fdef/blogcast-audio-forge) and start prompting.
+## 🏁 Getting Started
 
+Follow these steps to set up the project locally.
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. 
+- [Node.js](https://nodejs.org/) (v16 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/UDaygupta12512/Podcast-Generation.git
+    cd Podcast-Generation
+    ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2.  **Install dependencies**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3.  **Environment Configuration**
+    Create a `.env` file in the root directory and add your Supabase credentials. You might also need ElevenLabs keys depending on the configuration.
 
-# Step 3: Install the necessary dependencies.
-npm i
+    ```env
+    VITE_SUPABASE_URL=your_supabase_url
+    VITE_SUPABASE_PUBLISHABLE_KEY=your_supabase_anon_key
+    ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+4.  **Run the development server**
+    ```bash
+    npm run dev
+    ```
 
-**Edit a file directly in GitHub**
+    Open [http://localhost:8080](http://localhost:8080) (or the port shown in your terminal) to view it in the browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🤝 Contributing
 
-**Use GitHub Codespaces**
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📄 License
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [](https://vercel.com/uday-guptas-projects-1241fdef/blogcast-audio-forge) and click on Share -> Publish.
-
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
+This project is licensed under the MIT License.
